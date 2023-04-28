@@ -1,0 +1,32 @@
+article, aside, address, details, figcaption, figure, footer, header, hgroup, menu, nav, section, time, main{
+    display: block;
+}
+button{
+	outline: none;
+}
+button:disabled{
+	background: #ccc !important;
+	border-color: #ccc !important;
+	color: #fff !important;
+}
+body, html{
+	height: 100%;
+	width: 100%;
+}
+.page{
+	min-height: 100%;
+	height: auto;
+	color: #000;
+}
+table thead{
+	color: #fff;
+}
+.page-error{
+	display: none;
+}
+.buttons-group button{
+	width: 40px;
+}
+.hide-product, .buttons-group button, .pagination li{
+	height: 40px;
+}
